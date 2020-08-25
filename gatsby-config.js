@@ -1,10 +1,25 @@
 module.exports = {
   siteMetadata: {
     title: "JUAN SAINZ",
-    author: "Hunter Chang",
+    author: "arroyocoder",
     description: "Juan Sainz"
   },
   plugins: [
+
+    `gatsby-transformer-sharp`,
+  `gatsby-plugin-sharp`,
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/src/assets/images`,
+    },
+  },
+  {
+  resolve: `gatsby-transformer-remark`,
+  options: {
+    plugins: [`gatsby-remark-responsive-iframe`],
+  },
+},
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -12,10 +27,11 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#f7f0eb',
+        theme_color: '#f7f0eb',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/juanlogo.svg'
+
       },
     },
     'gatsby-plugin-sass',

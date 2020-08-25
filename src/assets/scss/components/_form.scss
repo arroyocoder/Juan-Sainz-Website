@@ -80,7 +80,7 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
-		border: none;
+		border: 1px solid black;
 		border-radius: 0;
 		color: inherit;
 		display: block;
@@ -95,8 +95,8 @@
 		}
 
 		&:focus {
-			border-color: _palette(highlight);
-			box-shadow: 0 0 0 2px _palette(highlight);
+			border-color: black;
+			box-shadow: 0 0 0 2px #138A9A;
 		}
 	}
 
@@ -109,7 +109,7 @@
 			color: _palette(border);
 			content: '\f078';
 			display: block;
-			height: _size(element-height);
+			height: 30vh;
 			line-height: _size(element-height);
 			pointer-events: none;
 			position: absolute;

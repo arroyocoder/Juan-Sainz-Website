@@ -11,8 +11,13 @@
   @include vendor('flex-wrap', 'wrap');
   border-top: 0 !important;
 
+
   & + * {
     border-top: 0 !important;
+  }
+
+  .tiles-contact{
+    color: #E5B543;
   }
 
   article {

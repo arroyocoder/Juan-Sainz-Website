@@ -1,190 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+body,
+input,
+select,
+textarea {
+	color: whi;
+	font-family: 'Playfair Display', serif;
+	font-size: 17pt;
+	font-weight: 300;
+	letter-spacing: _font(letter-spacing);
+	line-height: 1.65;
 
-	body, input, select, textarea {
-		color: black;
-		font-family: _font(family);
-		font-size: 17pt;
-		font-weight: _font(weight);
-		letter-spacing: _font(letter-spacing);
-		line-height: 1.65;
-
-		#main{
-			background: #158B9B;
-		}
-
-		#mainTwo{
-			background: #C3474D;
-		}
-
-		.mainTwo{
-			background: #C3474D;
-		}
-
-		#main{
-			background: #158B9B;
-		}
-
-		#main{
-			background: #158B9B;
-		}
-
-
-
-		@include breakpoint(xlarge) {
-			font-size: 14pt;
-		}
-
-		@include breakpoint(large) {
-			font-size: 12pt;
-		}
-
-		@include breakpoint(xxsmall) {
-			font-size: 11pt;
-		}
+	.alt-font{
+		font-family: 'EB Garamond', serif;
+		font-size: 20px;
 	}
+
+	#main {
+		background: #158B9B;
+	}
+
+	#mainTwo {
+		background: #E5B543;
+	}
+
+	#mainThree {
+		background-color: #f6f6f6;
+		background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+	}
+
+	#main {
+		background: #158B9B;
+	}
+
+	.bold-strong {
+		font-weight: 600;
+	}
+	@include breakpoint(xlarge) {
+		font-size: 14pt;
+	}
+	@include breakpoint(large) {
+		font-size: 12pt;
+	}
+	@include breakpoint(xxsmall) {
+		font-size: 11pt;
+	}
+}
+
+a {
+	@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-bottom-color #{_duration(transition)} ease-in-out'));
+	border-bottom: dotted 1px gold;
+	color: inherit;
+	text-decoration: none;
+	color: black;
+
+	&:hover {
+		border-bottom-color: transparent;
+		color: #E5B543 !important;
+	}
+
+	&:active {
+		color: desaturate(darken(_palette(bg), 15), 5) !important;
+	}
+}
+
+b,
+strong {
+	color: _palette(fg-bold);
+	font-weight: _font(weight-bold);
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+p {
+	margin: 0 0 _size(element-margin);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: black;
+	font-weight: _font(weight-bold);
+	line-height: 1.65;
+	margin: 0 0 (_size(element-margin) * 0.5) 0;
 
 	a {
-		@include vendor('transition', (
-			'color #{_duration(transition)} ease-in-out',
-			'border-bottom-color #{_duration(transition)} ease-in-out'
-		));
-		border-bottom: dotted 1px;
 		color: inherit;
-		text-decoration: none;
-
-		&:hover {
-			border-bottom-color: transparent;
-			color: white !important;
-		}
-
-		&:active {
-			color: desaturate(darken(_palette(bg), 15), 5) !important;
-		}
+		border-bottom: 0;
 	}
+}
 
-	strong, b {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
-	}
+h1 {
+	font-size: 2.5em;
+}
 
-	em, i {
-		font-style: italic;
-	}
+h2 {
+	font-size: 1.75em;
+}
 
-	p {
-		margin: 0 0 _size(element-margin) 0;
-	}
+h3 {
+	font-size: 1.35em;
+}
 
+h4 {
+	font-size: 1.1em;
+}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: black;
-		font-weight: _font(weight-bold);
-		line-height: 1.65;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+h5 {
+	font-size: 0.9em;
+}
 
-		a {
-			color: inherit;
-			border-bottom: 0;
-		}
-	}
-
+h6 {
+	font-size: 0.7em;
+}
+@include breakpoint(small) {
 	h1 {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.25em;
 	}
+}
 
-	h4 {
-		font-size: 1.1em;
-	}
+sub {
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
 
-	h5 {
-		font-size: 0.9em;
-	}
+sup {
+	font-size: 0.8em;
+	position: relative;
+	top: -0.5em;
+}
 
-	h6 {
-		font-size: 0.7em;
-	}
+blockquote {
+	border-left: solid 4px _palette(border);
+	font-style: italic;
+	margin: 0 0 _size(element-margin);
+	padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+}
 
-	@include breakpoint(small) {
-		h1 {
-			font-size: 2em;
-		}
+code {
+	background: _palette(border-bg);
+	font-family: _font(family-fixed);
+	font-size: 0.9em;
+	margin: 0 0.25em;
+	padding: 0.25em 0.65em;
+}
 
-		h2 {
-			font-size: 1.5em;
-		}
-
-		h3 {
-			font-size: 1.25em;
-		}
-	}
-
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
-
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
-
-	blockquote {
-		border-left: solid 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
-	}
+pre {
+	-webkit-overflow-scrolling: touch;
+	font-family: _font(family-fixed);
+	font-size: 0.9em;
+	margin: 0 0 _size(element-margin);
 
 	code {
-		background: _palette(border-bg);
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		display: block;
+		line-height: 1.75;
+		padding: 1em 1.5em;
+		overflow-x: auto;
 	}
+}
 
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0 _size(element-margin) 0;
+hr {
+	border: 0;
+	margin: _size(element-margin) 0;
 
-		code {
-			display: block;
-			line-height: 1.75;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
+	&.major {
+		margin: (_size(element-margin) * 1.5) 0;
 	}
+}
 
-	hr {
-		border: 0;
-		border-bottom: solid 1px _palette(border);
-		margin: _size(element-margin) 0;
+.align-left {
+	text-align: left;
+}
 
-		&.major {
-			margin: (_size(element-margin) * 1.5) 0;
-		}
-	}
+.align-center {
+	text-align: center;
+}
 
-	.align-left {
-		text-align: left;
-	}
-
-	.align-center {
-		text-align: center;
-	}
-
-	.align-right {
-		text-align: right;
-	}
+.align-right {
+	text-align: right;
+}

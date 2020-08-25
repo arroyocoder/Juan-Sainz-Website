@@ -1,119 +1,171 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+.anchor-flamenco {
+	color: black;
+	border-bottom: #C3474D;
+	border-bottom: 1px dotted #E5B543;
+	background: rgba(255, 255, 255, 0.6);
+	font-weight: 600;
+}
 
-/* Spotlights */
+.text-flamenco {
+	color: white;
+}
 
-	.spotlights {
+.anchor-jazz {
+	color: black;
+	border-bottom: 1px dotted #E5B543;
+	background: rgba(255, 255, 255, 0.2);
+	font-weight: 600;
+}
+
+.anchor-jazz-two {
+	color: black;
+	border-bottom: #C3474D;
+	border-bottom: 1px dotted #E5B543;
+	background: rgba(255, 255, 255, 0.6);
+	font-weight: 600;
+}
+
+.anchor-jazz-three {
+	color: black;
+	border-bottom: #C3474D;
+	border-bottom: 1px dotted #E5B543;
+	background: rgba(255, 255, 255, 0.2);
+	font-weight: 600;
+}
+
+
+
+.anchor-flamenco-two {
+	color: black;
+	border-bottom: #C3474D;
+	border-bottom: 1px dotted #E5B543;
+	background: rgba(255, 255, 255, 0.6);
+	font-weight: 600;
+}
+
+.landing-generic-color {
+	background-color: #f6f6f6;
+	background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+}
+
+
+
+.border-mas-page {
+	border-top: 1px solid black;
+}
+
+.footer-one {
+	background: #E5B543;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.spotlights {
+	border-top: 0 !important;
+
+	& + * {
 		border-top: 0 !important;
+	}
 
-		& + * {
-			border-top: 0 !important;
-		}
+	> section {
+		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'row');
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
 
-		> section {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'row');
-			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+		> .image {
+			background-position: center center;
+			background-size: cover;
+			border-radius: 0;
+			display: block;
+			position: relative;
+			width: 30%;
 
-			> .image {
-				background-position: center center;
-				background-size: cover;
+			img {
 				border-radius: 0;
 				display: block;
-				position: relative;
-				width: 30%;
-
-				img {
-					border-radius: 0;
-					display: block;
-					width: 100%;
-				}
-
-				&:before {
-					background: transparentize(_palette(bg), 0.1);
-					content: '';
-					display: block;
-					height: 100%;
-					left: 0;
-					opacity: 0;
-					position: absolute;
-					top: 0;
-					width: 100%;
-				}
+				width: 100%;
 			}
+
+			&:before {
+				background-color: transparentize(_palette(bg), 0.1);
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				opacity: 20%;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+		}
+
+		> .content {
+			@include vendor('display', 'flex');
+			@include vendor('flex-direction', 'column');
+			@include vendor('justify-content', 'center');
+			@include vendor('align-items', 'center');
+			@include padding(2em, 3em);
+			width: 70%;
+
+			> .inner {
+				margin: 0 auto;
+				max-width: 100%;
+				width: _size(inner);
+			}
+		}
+
+		&:nth-child(2n) {
+			@include vendor('flex-direction', 'row-reverse');
+			background-color: #EDEAE5;
 
 			> .content {
-				@include vendor('display', 'flex');
-				@include vendor('flex-direction', 'column');
-				@include vendor('justify-content', 'center');
-				@include vendor('align-items', 'center');
-				@include padding(2em, 3em);
-				width: 70%;
-
-				> .inner {
-					margin: 0 auto;
-					max-width: 100%;
-					width: _size(inner);
-				}
-			}
-
-			&:nth-child(2n) {
-				@include vendor('flex-direction', 'row-reverse');
-				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
-
-				> .content {
-					@include vendor('align-items', 'flex-end');
-				}
-			}
-		}
-
-		@include breakpoint(xlarge) {
-			> section {
-				> .image {
-					width: 40%;
-				}
-
-				> .content {
-					width: 60%;
-				}
-			}
-		}
-
-		@include breakpoint(large) {
-			> section {
-				> .image {
-					width: 45%;
-				}
-
-				> .content {
-					width: 55%;
-				}
-			}
-		}
-
-		@include breakpoint(medium) {
-			> section {
-				display: block;
-
-				> .image {
-					width: 100%;
-				}
-
-				> .content {
-					@include padding(4em, 3em);
-					width: 100%;
-				}
-			}
-		}
-
-		@include breakpoint(small) {
-			> section {
-				> .content {
-					@include padding(3em, 1.5em);
-				}
+				@include vendor('align-items', 'flex-end');
 			}
 		}
 	}
+	@include breakpoint(xlarge) {
+		> section {
+			> .image {
+				width: 40%;
+			}
+
+			> .content {
+				width: 60%;
+			}
+		}
+	}
+	@include breakpoint(large) {
+		> section {
+			> .image {
+				width: 45%;
+			}
+
+			> .content {
+				width: 55%;
+			}
+		}
+	}
+	@include breakpoint(medium) {
+		> section {
+			display: block;
+
+			> .image {
+				width: 100%;
+			}
+
+			> .content {
+				@include padding(4em, 3em);
+				width: 100%;
+			}
+		}
+	}
+	@include breakpoint(small) {
+		> section {
+			> .content {
+				@include padding(3em, 1.5em);
+			}
+		}
+	}
+}

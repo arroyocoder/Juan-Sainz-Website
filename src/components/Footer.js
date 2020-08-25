@@ -1,15 +1,17 @@
 import React from 'react'
+import {Link} from 'gatsby'
 
 const Footer = (props) => (
-    <footer id="footer">
+    <footer id="footer" className="footer-one">
         <div className="inner">
             <ul className="icons">
-                <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
-                <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCQ8WTNmqw5ycnW444PuwZ_g?view_as=subscriber" className="icon alt fa-youtube fa-2x" target="blank"><span className="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/Juan-Sainz-Bateria-107702917718946/?modal=admin_todo_tour" className="icon alt fa-facebook fa-2x" target="blank"><span className="label">Facebook</span></a></li>
+                <Link to="/" className="button">Volver</Link>
+
+
             </ul>
+
         </div>
     </footer>
 )
