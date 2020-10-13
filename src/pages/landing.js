@@ -195,8 +195,8 @@ const Landing = (props) => (<Layout>
           <br/>
           - Grabación del CD
           <a href="https://www.amazon.es/X20-Cd-Maita-Vende-Ca/dp/B072R1HDMG" target="blank" className="anchor-jazz">&nbsp;"X20"&nbsp;</a>
-          con
-          <a href="https://es.wikipedia.org/wiki/Maita_Vende_Ca" target="blank" className="anchor-jazz">Maita Vende Ca</a>.
+          con&nbsp;
+          <a href="https://es.wikipedia.org/wiki/Maita_Vende_Ca" target="blank" className="anchor-jazz">&nbsp;Maita Vende Ca</a>.
 
           <br/>
           <br/>
