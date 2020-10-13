@@ -20,7 +20,7 @@ const Landing = (props) => (<Layout>
 
       <h2 id="content">BIO</h2>
       <p>
-        Encontró en la música desde muy joven un poderosa fuerza que le permitía sentir y disfrutar la vida de una manera especial. La aproximación a este mundo tuvo en sus comienzos un marcado carácter autodidacta sustentado por unas enormes ganas y no tantos recursos (no eran tiempos de internet). Su interés por el instrumento de la batería aparece ya a la edad de 11 años y siempre se consideró afortunado y privilegiado por la música a la que ha tenido el buen criterio de acceder. Corrían los 70, años del
+        Desde muy joven encontró en la música una poderosa fuerza que le permitía sentir y disfrutar la vida de una manera especial. La aproximación a este mundo tuvo en sus comienzos un marcado carácter autodidacta sustentado por unas enormes ganas y no tantos recursos (no eran tiempos de internet). Su interés por el instrumento de la batería aparece ya a la edad de 11 años y siempre se consideró afortunado y privilegiado por la música a la que ha tenido el buen criterio de acceder. Corrían los 70, años del
         <a href="https://es.wikipedia.org/wiki/Rock_progresivo" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;rock progresivo&nbsp;</a>
         y experimental en grupos anglosajones de gran calidad instrumental como
         <a href="https://es.wikipedia.org/wiki/Yes_(banda)" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Yes&nbsp;</a>,

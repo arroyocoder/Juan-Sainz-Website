@@ -14,7 +14,7 @@ const BannerLanding = (props) => (<section id="banner" className="">
         <a href="https://www.conciertosengranada.es/artistas/manuel-perfumo-cuarteto" target="blank" className="anchor-jazz-three">&nbsp;Manolo Perfumo,</a>
         <a href="" target="blank" className="anchor-jazz-three">&nbsp;Pascale Petecchia</a>
         ,
-        <a href="https://www.pascaleandco.com/" target="blank" className="anchor-jazz-three">&nbsp;Miguel A López</a>,
+        <a href="https://www.pascaleandco.com/" target="blank" className="anchor-jazz-three">&nbsp;M.A López</a>,
         <a href="https://www.juangaliardomusic.com/" target="blank" className="anchor-jazz-three">&nbsp;Juan Galiardo</a>,
         <a href="http://www.pedrocortejosa.com/" target="blank" className="anchor-jazz-three">&nbsp;Pedro Cortejosa</a>,
         <a href="https://en.wikipedia.org/wiki/Jorge_Rossy" target="blank" className="anchor-jazz-three">&nbsp;Jordi Rossy</a>,

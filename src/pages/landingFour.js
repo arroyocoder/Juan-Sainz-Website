@@ -31,7 +31,7 @@ const Landing = (props) => (<Layout>
         En el vigente curso 2019-20, el elenco de profesores es:
         <a href="https://www.last.fm/es/music/Merche+Corisco/+wiki" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Merche Corisco</a>
         (Voz),
-        <a href="https://ucaescuelamusica.com/quienes-somos/" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Rafael Foncubierta</a> (Piano),
+        <a href="https://www.juangaliardomusic.com/biography" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Juan Galiardo</a> (Piano),
         <a href="https://ucaescuelamusica.com/quienes-somos/" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;José Atero</a> (Guitarra),
         <a href="https://ucaescuelamusica.com/quienes-somos/" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Carlos Villoslada</a> (Vientos),
         <a href="https://javibermudez.com/quien-soy/" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Javier Bermúdez</a> (Bajo),
@@ -49,11 +49,11 @@ const Landing = (props) => (<Layout>
         <h2 id="content">Clave Flamenca&#x266D;</h2>
       </header>
       <p>
-        Este proyecto consistente en un método de Jazz-Flamenco-Latin para batería y percusión Durante su colaboración con el percusionista
+        Este proyecto consiste en un método de Jazz-Flamenco-Latin para batería y percusión Durante su colaboración con el percusionista
         <a href="https://malickmbengue.com/" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Malick Mbengue&nbsp;</a>
         en la banda
         <a href="http://www.rizomarecords.com/tumbando-a-monk" target="blank" className="anchor-flamenco-two bold-strong">&nbsp;Tumbando a Monk&nbsp;</a>
-        surge la idea de “poner por escrito” todo el material acumulado a lo largo de los anos. Ideas y conceptos a desarrollar que son el germen del método “Clave Flamenca”. Un proyecto tanto en formato digital/interactivo como físico, el cual se encuentra en vías de desarrollo en 2020.
+        surge la idea de “poner por escrito” todo el material acumulado a lo largo de los años. Ideas y conceptos a desarrollar que son el germen del método “Clave Flamenca”. Un proyecto tanto en formato digital/interactivo como físico, el cual se encuentra en vías de desarrollo en 2020.
       </p>
       <ul className="actions">
         <li>

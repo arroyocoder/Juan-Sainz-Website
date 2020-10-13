@@ -24,13 +24,13 @@ const Landing = (props) => (<Layout>
         <header className="major">
           <h2>Descripción</h2>
         </header>
-        <p className="text-shade-4">A lo largo de su carrera Juan ha colaborado en grabaciones y directo con numerosos artistas tanto de la escena flamenca mas tradicional hasta fusiones más modernas como el flamenco-jazz</p>
+        <p className="text-shade-4">A lo largo de su carrera Juan ha colaborado en grabaciones y directos con numerosos artistas tanto desde la escena flamenca mas tradicional hasta fusiones más modernas como el flamenco-jazz</p>
       </div>
     </section>
     <section id="two" className="spotlights">
       <section>
 
-<iframe width="100%" height="440" src="https://www.youtube.com/embed/bXO3DesF0fM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="440" src="https://www.youtube.com/embed/bXO3DesF0fM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
         <div className="content landing-generic-color">
           <div className="inner">
             <header className="major">
@@ -38,19 +38,10 @@ const Landing = (props) => (<Layout>
             </header>
             <p>Concierto de
               <a href="https://es.wikipedia.org/wiki/El_Barrio_(cantautor)" target="blank" className="anchor-flamenco">&nbsp;El Barrio&nbsp;</a>
-              en Madrid (<a href="https://www.palaciovistalegre.com/" target="blank" className="anchor-flamenco">Palacio de Vistalegre</a>)año 2004.
+              en Madrid (Palacio de Vistalegre)año 2004.
               <br/>
-              Juan cuenta con una larga colaboración de 17 años con este grupo gaditano de éxito multitudinario, realizando cientos de conciertos en grandes “Tours” nacionales. Entre ellos:
-              <a href="https://www.wizinkcenter.es/" target="blank" className="anchor-flamenco">&nbsp;Palacio de Deportes&nbsp;</a>
-              de la Ciudad de Madrid,
-              <a href="https://www.palaumusica.cat/es" target="blank" className="anchor-flamenco">&nbsp;El Palau de la Música&nbsp;</a>
-              y el
-              <a href="https://www.palausantjordi.cat/es/" target="blank" className="anchor-flamenco">&nbsp;Palau Sant Jordi&nbsp;</a>
-              en Barcelona,
-              <a href="http://www.labienal.com/" target="blank" className="anchor-flamenco">&nbsp;Bienal de Flamenco</a>, espectáculo
-              <a href="" target="blank" className="anchor-flamenco">&nbsp;CON-FUSIÓN</a>
-              o el
-              <a href="https://es.wikipedia.org/wiki/Estadio_de_La_Cartuja" target="blank" className="anchor-flamenco">&nbsp;Estadio Olímpico de Sevilla</a>.
+              Juan cuenta con una larga colaboración de 17 años con este grupo gaditano de éxito multitudinario, realizando cientos de conciertos en grandes “tours” nacionales. Entre ellos: Palacio de Deportes de la Ciudad de Madrid, El Palau de la Música y el Palau Sant Jordi en Barcelona, Bienal de Flamenco, espectáculo CON-FUSIÓN o el
+              Estadio Olímpico de Sevilla.
             </p>
             <ul className="actions">
               <li>
@@ -62,7 +53,7 @@ const Landing = (props) => (<Layout>
       </section>
       <section>
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/-rMQUCqIDL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/-rMQUCqIDL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
         <div className="content landing-generic-color">
           <div className="inner">
             <header className="major">
@@ -130,7 +121,8 @@ const Landing = (props) => (<Layout>
         </div>
       </section>
       <section>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/0_MUvUUVndg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div className="content landing-generic-color">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/0_MUvUUVndg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+        <div className="content landing-generic-color">
           <div className="inner">
             <header className="major">
               <h3>Pastori Triana Pura El Barrio</h3>
@@ -161,7 +153,7 @@ const Landing = (props) => (<Layout>
               <a href="" target="blank" className="anchor-flamenco">&nbsp;Juan Sainz</a>.&nbsp; Mandola:
               <a href="https://andaluciainformacion.es/cadiz/912551/gran-cierre-a-tres-dias-de-puro-flamenco/" target="blank" className="anchor-flamenco">&nbsp;Oscar Lago</a>.&nbsp; Bajo:
               <a href="https://www.bravissimomusica.es/equipo/alejandro-benitez/" target="blank" className="anchor-flamenco">&nbsp;Alejandro Benítez</a>.&nbsp; Voz:
-              <a href="" target="blank" className="anchor-flamenco">&nbsp;Reyes Martin</a>.
+              <a href="" target="blank" className="anchor-flamenco">&nbsp;Reyes Martín</a>.
               <br/>
               Juan es colaborador habitual en las grabaciones y conciertos de este pianista flamenco, con quien ha girado en distintos festivales internacionales.
             </p>
@@ -174,7 +166,8 @@ const Landing = (props) => (<Layout>
         </div>
       </section>
       <section>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/jo8mXnGGWis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div className="content landing-generic-color">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/jo8mXnGGWis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+        <div className="content landing-generic-color">
           <div className="inner">
             <header className="major">
               <h3>Sonora Big Band de Cadiz</h3>
@@ -222,14 +215,7 @@ const Landing = (props) => (<Layout>
           <a href="https://es.wikipedia.org/wiki/Nono_Garc%C3%ADa" target="blank" className="anchor-jazz">&nbsp;Nono García&nbsp;</a>
           ( guitarra). Ha colaborado también en los audios del libro
           <a href="https://multisononline.com/editorial/flamenco-y-armonia-por-carmelo-muriel.html" target="blank" className="anchor-jazz">“Flamenco y Armonía” de Carmelo Muriel</a>.
-          <br/>
-          <br/>
-          -Ha colaborado con:
-          <a href="https://es.wikipedia.org/wiki/Martirio_(cantante)" target="blank" className="anchor-jazz">&nbsp;Martirio</a>,
-          <a href="https://www.javierruibal.com/bio/" target="blank" className="anchor-jazz">&nbsp;Javier Ruibal</a>,
-          <a href="https://es.wikipedia.org/wiki/Antonio_Mart%C3%ADnez_Ares" target="blank" className="anchor-jazz">&nbsp;Martinez Ares</a>,
-          <a href="https://es.wikipedia.org/wiki/Hakim" target="blank" className="anchor-jazz">&nbsp;Hakim&nbsp;</a>
-          entre otros.
+
         </p>
       </div>
     </section>

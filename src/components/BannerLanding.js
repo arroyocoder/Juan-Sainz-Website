@@ -10,13 +10,12 @@ const BannerLanding = (props) => (<section id="banner" className="">
         <a href="https://es.wikipedia.org/wiki/El_Barrio_(cantautor)" target="blank" className="anchor-jazz-three">EL BARRIO,</a>
         <a href="https://es.wikipedia.org/wiki/Juanito_Villar" target="blank" className="anchor-jazz-three">&nbsp;JUANITO VILLAR</a>,
         <a href="https://es.wikipedia.org/wiki/Chiquetete" target="blank" className="anchor-jazz-three">&nbsp;CHIQUETETE</a>,
-        <span className="anchor-jazz-three">FAMILIA MONTOYA (ENRIQUE Y TATE)</span>,
+        <a href="https://es.wikipedia.org/wiki/Enrique_Montoya" target="blank"><span className="anchor-jazz-three">FAMILIA MONTOYA (ENRIQUE Y <a href="https://es.wikipedia.org/wiki/Tate_Montoya" target="blank">TATE</a>)</span></a>,
         <a href="https://es.wikipedia.org/wiki/Mar%C3%ADa_Jim%C3%A9nez" target="blank" className="anchor-jazz-three">&nbsp;MARÍA JIMÉNEZ</a>,
         <a href="https://pasionvega.es/biografia/" target="blank" className="anchor-jazz-three">&nbsp;PASIÓN VEGA</a>,
         <a href="http://www.dorantes.es/" target="blank" className="anchor-jazz-three">&nbsp;DORANTES</a>,
         <a href="https://www.canalsevillanas.com/artistas/salmarina/salmarina.php" target="blank" className="anchor-jazz-three">&nbsp;SAL MARINA</a>,
         <a href="https://twitter.com/granayoro_grupo" target="blank" className="anchor-jazz-three">&nbsp;GRANA Y ORO</a>,
-        <a href="#" target="blank" className="anchor-jazz-three">&nbsp;SENDERO</a>,
         <a href="https://www.ecfdavidpalomar.com/nosotros.html" target="blank" className="anchor-jazz-three">&nbsp;DAVID PALOMAR</a>,
         <a href="https://www.facebook.com/pg/RaulGalvezCantaor/about/" target="blank" className="anchor-jazz-three">&nbsp;RAÚL GÁLVEZ,</a>
         <a href="http://josemerceoficial.es/biografia/" target="blank" className="anchor-jazz-three">&nbsp;JOSÉ MERCÉ</a>
